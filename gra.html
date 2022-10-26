@@ -1,0 +1,68 @@
+<!-- HTML_ONE -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Guess The Number</title>
+</head>
+<body>
+<h1>Imagine number between 0 and 1000!</h1>
+<h2>I'll try to guess in 10 tries. </h2>
+<p>The rules are simple: <br>
+press correct button if the number is too small or too big.<br>
+Hit "You WON!" if I guess.<br>
+Just don't cheat :-)<br><br>
+Press "OK!" if you are ready</p>
+
+<form action="" method="POST">
+    <input type="hidden" name="min" value="{}">
+    <input type="hidden" name="max" value="{}">
+    <input type="submit" name="OK!" value="OK!">
+</form>
+</body>
+</html>
+
+
+
+<!-- HTML_TWO -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Guess The Number</title>
+</head>
+<body>
+<h1>Imagine number between 0 and 1000!</h1>
+<h2>I'll try to guess in 10 tries. </h2>
+<p>The rules are simple: <br>
+press correct button if the number is too small or too big.<br>
+Hit "You WON!" if I guess.<br>
+Just don't cheat :-)<br><br></p>
+<h3>Is it number {guess}??</h3>
+
+<form action="" method="POST">
+    <input type="submit" name="user" value="TOO SMALL!">
+    <input type="submit" name="user" value="TOO BIG!">
+    <input type="submit" name="user" value="YOU WON!">
+    <input type="hidden" name="min" value="{min}">
+    <input type="hidden" name="max" value="{max}">
+    <input type="hidden" name="guess" value="{guess}">
+</form>
+</body>
+</html>
+
+<!-- HTML_TWO -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Guess The Number</title>
+</head>
+<body>
+<h1>Hurra! I guess!</h1>
+<h2>Your number is {guess}!</h2>
+</body>
+</html>
